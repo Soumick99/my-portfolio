@@ -18,52 +18,30 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 0 0 250px;
+    
 }
 
 nav h2 {
     font-size: 45px;
+    padding-left: 240px;
 
 }
 
 .nav-menu {
     display: flex;
-    margin-left: 633px;
-    margin-right: 197px;
+    align-items: center;
+    padding-right: 150px;
 }
+
 
 .nav-menu li {
     list-style: none;
-    margin-right: 46px;
+    margin-right: 50px;
+    
 }
 
-.nav-menu a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-.span-nav {
-    background-color: #FD6E0A;
-    color: white;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-
-/* mary section start */
-.mary-section {
-    display: flex;
-    padding: 0 0 0 250px;
-}
-
-.mary-info {
-
-    width: 585px;
-}
-
-.mary-info button {
-    width: 200px;
+.btn-primary{
+    width: 100px;
     height: 64px;
     border: 1px solid orange;
     font-family: 'Open Sans';
@@ -72,6 +50,22 @@ nav h2 {
     font-size: 20px;
     line-height: 27px;
     text-align: center;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* mary section start */
+.mary-section {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 250px;
 }
 
 .btn-download {
@@ -93,18 +87,23 @@ nav h2 {
 .btn-contact {
     background-color: #FFF8F3;
     border-radius: 5px;
+    width: 200px;
+    height: 64px;
+    border: 1px solid orange;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
 }
-
-
 
 .mary-img img {
     width: 680px;
     height: 800px;
-    margin-left: 163px;
+    margin-left: 150px;
 }
-.mary-info{
-    margin-top: 200px;
-}
+
 .mary-img {
     background-image: url("/images/header_bg.png");
     background-repeat: no-repeat;
