@@ -1,0 +1,192 @@
+/* header style start */
+header {
+    background-color: #FFF8F3;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: justify;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 250px;
+}
+
+nav h2 {
+    font-size: 45px;
+
+}
+
+.nav-menu {
+    display: flex;
+    margin-left: 633px;
+    margin-right: 197px;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin-right: 46px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.span-nav {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+/* mary section start */
+.mary-section {
+    display: flex;
+    padding: 0 0 0 250px;
+}
+
+.mary-info {
+
+    width: 585px;
+}
+
+.mary-info button {
+    width: 200px;
+    height: 64px;
+    border: 1px solid orange;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.btn-download {
+    width: 200px;
+    height: 64px;
+    border: 1px solid orange;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.btn-contact {
+    background-color: #FFF8F3;
+    border-radius: 5px;
+}
+
+
+
+.mary-img img {
+    width: 680px;
+    height: 800px;
+    margin-left: 163px;
+}
+.mary-info{
+    margin-top: 200px;
+}
+.mary-img {
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    margin-left: 280px;
+}
+
+/* About Me Style Information */
+.about {
+    text-align: center;
+    background-color: #FFF8F3;
+    margin: 190px 250px;
+}
+
+.about p {
+    text-align: center;
+}
+
+.about-info {
+    display: flex;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.about-info h5 {
+    font-size: 20px;
+}
+
+.about-info-margin {
+    margin-right: 50px;
+}
+
+/* What I Do Style Information */
+.what-i-do {
+    margin: 190px 250px;
+}
+
+.what-info {
+    text-align: center;
+}
+
+.what-card-info {
+    display: flex;
+    text-align: center;
+
+    margin-top: 80px;
+}
+
+.what-card {
+    margin-right: 50px;
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
+
+/* Summery style information */
+.summery {
+    margin: 190px 250px;
+}
+
+.summery-flex {
+    display: flex;
+}
+
+
+/* Footer Style Information */
+.footer-info {
+    display: flex;
+    margin-top: 80px;
+    background-color: #FFF8F3;
+}
+
+.footer-padding {
+    padding: 80px 250px;
+}
+
+input {
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+textarea {
+    font-size: 18px
+}
