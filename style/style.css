@@ -1,6 +1,9 @@
 /* header style start */
 header {
     background-color: #FFF8F3;
+    background-image: url("/images/header_bg.png"), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
 
 p {
@@ -61,7 +64,7 @@ nav h2 {
     font-size: 20px;
 }
 
-/* mary section start */
+/* banner section start */
 .mary-section {
     display: flex;
     align-items: center;
@@ -104,12 +107,6 @@ nav h2 {
     margin-left: 150px;
 }
 
-.mary-img {
-    background-image: url("/images/header_bg.png");
-    background-repeat: no-repeat;
-    background-position:bottom;
-    margin-left: 280px;
-}
 
 /* About Me Style Information */
 .about {
@@ -148,14 +145,14 @@ nav h2 {
 .what-card-info {
     display: flex;
     text-align: center;
-
     margin-top: 80px;
+    gap: 40px;
 }
 
 .what-card {
-    margin-right: 50px;
     background-color: ghostwhite;
     border-radius: 5px;
+    box-shadow: 0 6px 50px rgba(0,0,0,0.06);
 }
 
 /* Summery style information */
@@ -165,11 +162,12 @@ nav h2 {
 
 .summery-flex {
     display: flex;
+    gap: 40px;
 }
 
 
 /* Footer Style Information */
-.footer-info {
+footer{
     display: flex;
     margin-top: 80px;
     background-color: #FFF8F3;
@@ -185,7 +183,10 @@ input {
     margin-bottom: 24px;
     font-size: 18px;
 }
-
+.social-app{
+    display: flex;
+    gap: 30px;
+}
 textarea {
     font-size: 18px
 }
